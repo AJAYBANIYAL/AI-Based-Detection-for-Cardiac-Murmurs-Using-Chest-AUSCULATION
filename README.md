@@ -66,7 +66,8 @@ Beat and Tempo:The beat and tempo of an audio signal can be estimated using the 
 
 ![image](https://github.com/AJAYBANIYAL/AI-BASED-DETECTION-OF-CARDIAC-MURMUR-USING-CHEST-AUSCULATION-/assets/33643674/68045764-150c-4a37-9d78-0d06820bd1ea)
 
-#MFCCS(Mel-frequency cepstral coefficients):
+# MFCCS(Mel-frequency cepstral coefficients):
+
 The process of extracting MFCC involves a series of stages that comprise pre-emphasis, framing, windowing, Fourier transform, mel frequency filtering, logarithmic compression, and discrete cosine transform. These stages are implemented to convert the unprocessed heart sound signal into a group of MFCC coefficients that can serve as features for subsequent analysis. In sound processing, the mel-frequency cepstrum (MFCC) is a representation of the short-term power spectrum of a sound, based on a linear cosine transform of a log power spectrum on a nonlinear mel scale of frequency.
 The following is a typical derivation of MFCCs is:
 Perform a signal's Fourier transform on a windowed extract.
